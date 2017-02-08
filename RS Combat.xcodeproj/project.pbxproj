@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		732C6C4B19C5568A0078927C /* AppIcon60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 732C6C4A19C5568A0078927C /* AppIcon60x60@3x.png */; };
+		733AEBAF199C577300E0BA95 /* 768osBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 733AEBAE199C577300E0BA95 /* 768osBackground.png */; };
+		733AEBB3199C94B100E0BA95 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 733AEBB2199C94B100E0BA95 /* Info.plist */; };
+		735641B419819F080098FF4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7356419519819F080098FF4B /* AppDelegate.m */; };
+		735641B519819F080098FF4B /* F2PViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7356419719819F080098FF4B /* F2PViewController.m */; };
+		735641B619819F080098FF4B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7356419919819F080098FF4B /* FirstViewController.m */; };
+		735641B719819F080098FF4B /* 640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 7356419B19819F080098FF4B /* 640x1136.png */; };
+		735641B819819F080098FF4B /* 640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = 7356419C19819F080098FF4B /* 640x960.png */; };
+		735641BA19819F080098FF4B /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 7356419E19819F080098FF4B /* button.png */; };
+		735641BC19819F080098FF4B /* osBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 735641A019819F080098FF4B /* osBackground.png */; };
+		735641BD19819F080098FF4B /* osTab.png in Resources */ = {isa = PBXBuildFile; fileRef = 735641A119819F080098FF4B /* osTab.png */; };
+		735641BE19819F080098FF4B /* osTab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 735641A219819F080098FF4B /* osTab@2x.png */; };
+		735641BF19819F080098FF4B /* rs3Tab.png in Resources */ = {isa = PBXBuildFile; fileRef = 735641A319819F080098FF4B /* rs3Tab.png */; };
+		735641C019819F080098FF4B /* rs3Tab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 735641A419819F080098FF4B /* rs3Tab@2x.png */; };
+		735641C319819F080098FF4B /* tabBarBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 735641A719819F080098FF4B /* tabBarBackground@2x.png */; };
+		735641C419819F080098FF4B /* textbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 735641A819819F080098FF4B /* textbox.png */; };
+		735641C519819F080098FF4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 735641A919819F080098FF4B /* Images.xcassets */; };
+		735641C719819F080098FF4B /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 735641AC19819F080098FF4B /* IntroViewController.m */; };
+		735641C819819F080098FF4B /* Main_Storyboard_4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 735641AD19819F080098FF4B /* Main_Storyboard_4.storyboard */; };
+		735641C919819F080098FF4B /* Main_Storyboard_35.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 735641AE19819F080098FF4B /* Main_Storyboard_35.storyboard */; };
+		735641CA19819F080098FF4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 735641AF19819F080098FF4B /* main.m */; };
+		735641CB19819F080098FF4B /* OSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 735641B119819F080098FF4B /* OSViewController.m */; };
+		735641CC19819F080098FF4B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 735641B319819F080098FF4B /* SecondViewController.m */; };
+		735F29AB199B0AEE008940AF /* 768x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 735F29AA199B0AEE008940AF /* 768x1024.png */; };
+		735F29AF199B0DC6008940AF /* iPadRs3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 735F29AE199B0DC6008940AF /* iPadRs3ViewController.m */; };
+		735F29B1199B0DE3008940AF /* Main_Storyboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 735F29B0199B0DE3008940AF /* Main_Storyboard_iPad.storyboard */; };
+		735F29B4199B0E8B008940AF /* iPadOsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 735F29B3199B0E8B008940AF /* iPadOsViewController.m */; };
+		73719C0D19A00A54007EE1BC /* AppIcon29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = 73719BFF19A00A54007EE1BC /* AppIcon29x29.png */; };
+		73719C0E19A00A54007EE1BC /* AppIcon29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73719C0019A00A54007EE1BC /* AppIcon29x29@2x.png */; };
+		73719C0F19A00A54007EE1BC /* AppIcon40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 73719C0119A00A54007EE1BC /* AppIcon40x40.png */; };
+		73719C1019A00A54007EE1BC /* AppIcon40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73719C0219A00A54007EE1BC /* AppIcon40x40@2x.png */; };
+		73719C1119A00A54007EE1BC /* AppIcon50x50.png in Resources */ = {isa = PBXBuildFile; fileRef = 73719C0319A00A54007EE1BC /* AppIcon50x50.png */; };
+		73719C1219A00A54007EE1BC /* AppIcon50x50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73719C0419A00A54007EE1BC /* AppIcon50x50@2x.png */; };
+		73719C1319A00A54007EE1BC /* AppIcon57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 73719C0519A00A54007EE1BC /* AppIcon57x57.png */; };
+		73719C1419A00A54007EE1BC /* AppIcon57x57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73719C0619A00A54007EE1BC /* AppIcon57x57@2x.png */; };
+		73719C1519A00A54007EE1BC /* AppIcon60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = 73719C0719A00A54007EE1BC /* AppIcon60x60.png */; };
+		73719C1619A00A54007EE1BC /* AppIcon60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73719C0819A00A54007EE1BC /* AppIcon60x60@2x.png */; };
+		73719C1719A00A54007EE1BC /* AppIcon72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 73719C0919A00A54007EE1BC /* AppIcon72x72.png */; };
+		73719C1819A00A54007EE1BC /* AppIcon72x72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73719C0A19A00A54007EE1BC /* AppIcon72x72@2x.png */; };
+		73719C1919A00A54007EE1BC /* AppIcon76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = 73719C0B19A00A54007EE1BC /* AppIcon76x76.png */; };
+		73719C1A19A00A54007EE1BC /* AppIcon76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73719C0C19A00A54007EE1BC /* AppIcon76x76@2x.png */; };
+		73D0D6E5199EC15C00A471F5 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D0D6E4199EC15C00A471F5 /* iAd.framework */; };
+		73E9662D19A3B64C00196E34 /* AppLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 73E9662C19A3B64C00196E34 /* AppLogo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		736530741976BD28004D83E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 736530521976BD28004D83E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 736530591976BD28004D83E9;
+			remoteInfo = "RS Combat Calc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		732C6C4A19C5568A0078927C /* AppIcon60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon60x60@3x.png"; path = "RS Combat/App Icon [Squared]/AppIcon60x60@3x.png"; sourceTree = SOURCE_ROOT; };
+		733AEBAE199C577300E0BA95 /* 768osBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 768osBackground.png; sourceTree = "<group>"; };
+		733AEBB2199C94B100E0BA95 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "RS Combat Tests/Info.plist"; sourceTree = SOURCE_ROOT; };
+		7356419419819F080098FF4B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "RS Combat/AppDelegate.h"; sourceTree = SOURCE_ROOT; };
+		7356419519819F080098FF4B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "RS Combat/AppDelegate.m"; sourceTree = SOURCE_ROOT; };
+		7356419619819F080098FF4B /* F2PViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = F2PViewController.h; path = "RS Combat/F2PViewController.h"; sourceTree = SOURCE_ROOT; };
+		7356419719819F080098FF4B /* F2PViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = F2PViewController.m; path = "RS Combat/F2PViewController.m"; sourceTree = SOURCE_ROOT; };
+		7356419819819F080098FF4B /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstViewController.h; path = "RS Combat/FirstViewController.h"; sourceTree = SOURCE_ROOT; };
+		7356419919819F080098FF4B /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstViewController.m; path = "RS Combat/FirstViewController.m"; sourceTree = SOURCE_ROOT; };
+		7356419B19819F080098FF4B /* 640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 640x1136.png; sourceTree = "<group>"; };
+		7356419C19819F080098FF4B /* 640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 640x960.png; sourceTree = "<group>"; };
+		7356419E19819F080098FF4B /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		735641A019819F080098FF4B /* osBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = osBackground.png; sourceTree = "<group>"; };
+		735641A119819F080098FF4B /* osTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = osTab.png; sourceTree = "<group>"; };
+		735641A219819F080098FF4B /* osTab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "osTab@2x.png"; sourceTree = "<group>"; };
+		735641A319819F080098FF4B /* rs3Tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rs3Tab.png; sourceTree = "<group>"; };
+		735641A419819F080098FF4B /* rs3Tab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rs3Tab@2x.png"; sourceTree = "<group>"; };
+		735641A719819F080098FF4B /* tabBarBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBarBackground@2x.png"; sourceTree = "<group>"; };
+		735641A819819F080098FF4B /* textbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textbox.png; sourceTree = "<group>"; };
+		735641A919819F080098FF4B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "RS Combat/Images.xcassets"; sourceTree = SOURCE_ROOT; };
+		735641AA19819F080098FF4B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "RS Combat/Info.plist"; sourceTree = SOURCE_ROOT; };
+		735641AB19819F080098FF4B /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IntroViewController.h; path = "RS Combat/IntroViewController.h"; sourceTree = SOURCE_ROOT; };
+		735641AC19819F080098FF4B /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IntroViewController.m; path = "RS Combat/IntroViewController.m"; sourceTree = SOURCE_ROOT; };
+		735641AD19819F080098FF4B /* Main_Storyboard_4.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main_Storyboard_4.storyboard; path = "RS Combat/Main_Storyboard_4.storyboard"; sourceTree = SOURCE_ROOT; };
+		735641AE19819F080098FF4B /* Main_Storyboard_35.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main_Storyboard_35.storyboard; path = "RS Combat/Main_Storyboard_35.storyboard"; sourceTree = SOURCE_ROOT; };
+		735641AF19819F080098FF4B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "RS Combat/main.m"; sourceTree = SOURCE_ROOT; };
+		735641B019819F080098FF4B /* OSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSViewController.h; path = "RS Combat/OSViewController.h"; sourceTree = SOURCE_ROOT; };
+		735641B119819F080098FF4B /* OSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSViewController.m; path = "RS Combat/OSViewController.m"; sourceTree = SOURCE_ROOT; };
+		735641B219819F080098FF4B /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondViewController.h; path = "RS Combat/SecondViewController.h"; sourceTree = SOURCE_ROOT; };
+		735641B319819F080098FF4B /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondViewController.m; path = "RS Combat/SecondViewController.m"; sourceTree = SOURCE_ROOT; };
+		735F29AA199B0AEE008940AF /* 768x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 768x1024.png; sourceTree = "<group>"; };
+		735F29AD199B0DC6008940AF /* iPadRs3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPadRs3ViewController.h; path = "RS Combat/iPadRs3ViewController.h"; sourceTree = SOURCE_ROOT; };
+		735F29AE199B0DC6008940AF /* iPadRs3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPadRs3ViewController.m; path = "RS Combat/iPadRs3ViewController.m"; sourceTree = SOURCE_ROOT; };
+		735F29B0199B0DE3008940AF /* Main_Storyboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main_Storyboard_iPad.storyboard; path = "RS Combat/Main_Storyboard_iPad.storyboard"; sourceTree = SOURCE_ROOT; };
+		735F29B2199B0E8B008940AF /* iPadOsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPadOsViewController.h; path = "RS Combat/iPadOsViewController.h"; sourceTree = SOURCE_ROOT; };
+		735F29B3199B0E8B008940AF /* iPadOsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPadOsViewController.m; path = "RS Combat/iPadOsViewController.m"; sourceTree = SOURCE_ROOT; };
+		7365305A1976BD28004D83E9 /* RS Combat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RS Combat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		736530731976BD28004D83E9 /* RS CombatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RS CombatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73719BFF19A00A54007EE1BC /* AppIcon29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon29x29.png; path = "RS Combat/App Icon [Squared]/AppIcon29x29.png"; sourceTree = SOURCE_ROOT; };
+		73719C0019A00A54007EE1BC /* AppIcon29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon29x29@2x.png"; path = "RS Combat/App Icon [Squared]/AppIcon29x29@2x.png"; sourceTree = SOURCE_ROOT; };
+		73719C0119A00A54007EE1BC /* AppIcon40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon40x40.png; path = "RS Combat/App Icon [Squared]/AppIcon40x40.png"; sourceTree = SOURCE_ROOT; };
+		73719C0219A00A54007EE1BC /* AppIcon40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon40x40@2x.png"; path = "RS Combat/App Icon [Squared]/AppIcon40x40@2x.png"; sourceTree = SOURCE_ROOT; };
+		73719C0319A00A54007EE1BC /* AppIcon50x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon50x50.png; path = "RS Combat/App Icon [Squared]/AppIcon50x50.png"; sourceTree = SOURCE_ROOT; };
+		73719C0419A00A54007EE1BC /* AppIcon50x50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon50x50@2x.png"; path = "RS Combat/App Icon [Squared]/AppIcon50x50@2x.png"; sourceTree = SOURCE_ROOT; };
+		73719C0519A00A54007EE1BC /* AppIcon57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon57x57.png; path = "RS Combat/App Icon [Squared]/AppIcon57x57.png"; sourceTree = SOURCE_ROOT; };
+		73719C0619A00A54007EE1BC /* AppIcon57x57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon57x57@2x.png"; path = "RS Combat/App Icon [Squared]/AppIcon57x57@2x.png"; sourceTree = SOURCE_ROOT; };
+		73719C0719A00A54007EE1BC /* AppIcon60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon60x60.png; path = "RS Combat/App Icon [Squared]/AppIcon60x60.png"; sourceTree = SOURCE_ROOT; };
+		73719C0819A00A54007EE1BC /* AppIcon60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon60x60@2x.png"; path = "RS Combat/App Icon [Squared]/AppIcon60x60@2x.png"; sourceTree = SOURCE_ROOT; };
+		73719C0919A00A54007EE1BC /* AppIcon72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon72x72.png; path = "RS Combat/App Icon [Squared]/AppIcon72x72.png"; sourceTree = SOURCE_ROOT; };
+		73719C0A19A00A54007EE1BC /* AppIcon72x72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon72x72@2x.png"; path = "RS Combat/App Icon [Squared]/AppIcon72x72@2x.png"; sourceTree = SOURCE_ROOT; };
+		73719C0B19A00A54007EE1BC /* AppIcon76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon76x76.png; path = "RS Combat/App Icon [Squared]/AppIcon76x76.png"; sourceTree = SOURCE_ROOT; };
+		73719C0C19A00A54007EE1BC /* AppIcon76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon76x76@2x.png"; path = "RS Combat/App Icon [Squared]/AppIcon76x76@2x.png"; sourceTree = SOURCE_ROOT; };
+		73D0D6E4199EC15C00A471F5 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		73E9662C19A3B64C00196E34 /* AppLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppLogo.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		736530571976BD28004D83E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73D0D6E5199EC15C00A471F5 /* iAd.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		736530701976BD28004D83E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7356419A19819F080098FF4B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				73719BFE19A00A2F007EE1BC /* Icons */,
+				733AEBAE199C577300E0BA95 /* 768osBackground.png */,
+				735F29AA199B0AEE008940AF /* 768x1024.png */,
+				7356419B19819F080098FF4B /* 640x1136.png */,
+				7356419C19819F080098FF4B /* 640x960.png */,
+				73E9662C19A3B64C00196E34 /* AppLogo.png */,
+				7356419E19819F080098FF4B /* button.png */,
+				735641A019819F080098FF4B /* osBackground.png */,
+				735641A119819F080098FF4B /* osTab.png */,
+				735641A219819F080098FF4B /* osTab@2x.png */,
+				735641A319819F080098FF4B /* rs3Tab.png */,
+				735641A419819F080098FF4B /* rs3Tab@2x.png */,
+				735641A719819F080098FF4B /* tabBarBackground@2x.png */,
+				735641A819819F080098FF4B /* textbox.png */,
+			);
+			name = Images;
+			path = "RS Combat/Images";
+			sourceTree = SOURCE_ROOT;
+		};
+		735F29AC199B0D18008940AF /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				735F29B0199B0DE3008940AF /* Main_Storyboard_iPad.storyboard */,
+				735F29AD199B0DC6008940AF /* iPadRs3ViewController.h */,
+				735F29AE199B0DC6008940AF /* iPadRs3ViewController.m */,
+				735F29B2199B0E8B008940AF /* iPadOsViewController.h */,
+				735F29B3199B0E8B008940AF /* iPadOsViewController.m */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		736530511976BD28004D83E9 = {
+			isa = PBXGroup;
+			children = (
+				73D0D6E4199EC15C00A471F5 /* iAd.framework */,
+				7365305C1976BD28004D83E9 /* RS Combat */,
+				736530761976BD28004D83E9 /* RS Combat Tests */,
+				7365305B1976BD28004D83E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7365305B1976BD28004D83E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7365305A1976BD28004D83E9 /* RS Combat.app */,
+				736530731976BD28004D83E9 /* RS CombatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7365305C1976BD28004D83E9 /* RS Combat */ = {
+			isa = PBXGroup;
+			children = (
+				7356419419819F080098FF4B /* AppDelegate.h */,
+				7356419519819F080098FF4B /* AppDelegate.m */,
+				73C571CE1A9CFB02005B5D0E /* RS Combat */,
+				735641A919819F080098FF4B /* Images.xcassets */,
+				7356419A19819F080098FF4B /* Images */,
+				7365305D1976BD28004D83E9 /* Supporting Files */,
+			);
+			name = "RS Combat";
+			path = "RS Combat Calc";
+			sourceTree = "<group>";
+		};
+		7365305D1976BD28004D83E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				735641AA19819F080098FF4B /* Info.plist */,
+				735641AF19819F080098FF4B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		736530761976BD28004D83E9 /* RS Combat Tests */ = {
+			isa = PBXGroup;
+			children = (
+				736530771976BD28004D83E9 /* Supporting Files */,
+			);
+			name = "RS Combat Tests";
+			path = "RS Combat CalcTests";
+			sourceTree = "<group>";
+		};
+		736530771976BD28004D83E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				733AEBB2199C94B100E0BA95 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		73719BFE19A00A2F007EE1BC /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				732C6C4A19C5568A0078927C /* AppIcon60x60@3x.png */,
+				73719BFF19A00A54007EE1BC /* AppIcon29x29.png */,
+				73719C0019A00A54007EE1BC /* AppIcon29x29@2x.png */,
+				73719C0119A00A54007EE1BC /* AppIcon40x40.png */,
+				73719C0219A00A54007EE1BC /* AppIcon40x40@2x.png */,
+				73719C0319A00A54007EE1BC /* AppIcon50x50.png */,
+				73719C0419A00A54007EE1BC /* AppIcon50x50@2x.png */,
+				73719C0519A00A54007EE1BC /* AppIcon57x57.png */,
+				73719C0619A00A54007EE1BC /* AppIcon57x57@2x.png */,
+				73719C0719A00A54007EE1BC /* AppIcon60x60.png */,
+				73719C0819A00A54007EE1BC /* AppIcon60x60@2x.png */,
+				73719C0919A00A54007EE1BC /* AppIcon72x72.png */,
+				73719C0A19A00A54007EE1BC /* AppIcon72x72@2x.png */,
+				73719C0B19A00A54007EE1BC /* AppIcon76x76.png */,
+				73719C0C19A00A54007EE1BC /* AppIcon76x76@2x.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		73C571CE1A9CFB02005B5D0E /* RS Combat */ = {
+			isa = PBXGroup;
+			children = (
+				735F29AC199B0D18008940AF /* iPad */,
+				735641AE19819F080098FF4B /* Main_Storyboard_35.storyboard */,
+				735641AD19819F080098FF4B /* Main_Storyboard_4.storyboard */,
+				735641AB19819F080098FF4B /* IntroViewController.h */,
+				735641AC19819F080098FF4B /* IntroViewController.m */,
+				7356419619819F080098FF4B /* F2PViewController.h */,
+				7356419719819F080098FF4B /* F2PViewController.m */,
+				7356419819819F080098FF4B /* FirstViewController.h */,
+				7356419919819F080098FF4B /* FirstViewController.m */,
+				735641B019819F080098FF4B /* OSViewController.h */,
+				735641B119819F080098FF4B /* OSViewController.m */,
+				735641B219819F080098FF4B /* SecondViewController.h */,
+				735641B319819F080098FF4B /* SecondViewController.m */,
+			);
+			name = "RS Combat";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		736530591976BD28004D83E9 /* RS Combat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7365307D1976BD28004D83E9 /* Build configuration list for PBXNativeTarget "RS Combat" */;
+			buildPhases = (
+				736530561976BD28004D83E9 /* Sources */,
+				736530571976BD28004D83E9 /* Frameworks */,
+				736530581976BD28004D83E9 /* Resources */,
+				733AEBB4199C9C4E00E0BA95 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RS Combat";
+			productName = "RS Combat Calc";
+			productReference = 7365305A1976BD28004D83E9 /* RS Combat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		736530721976BD28004D83E9 /* RS CombatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 736530801976BD28004D83E9 /* Build configuration list for PBXNativeTarget "RS CombatTests" */;
+			buildPhases = (
+				7365306F1976BD28004D83E9 /* Sources */,
+				736530701976BD28004D83E9 /* Frameworks */,
+				736530711976BD28004D83E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				736530751976BD28004D83E9 /* PBXTargetDependency */,
+			);
+			name = "RS CombatTests";
+			productName = "RS Combat CalcTests";
+			productReference = 736530731976BD28004D83E9 /* RS CombatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		736530521976BD28004D83E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Erik Bean";
+				TargetAttributes = {
+					736530591976BD28004D83E9 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = LBL5W959W4;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
+					736530721976BD28004D83E9 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 736530591976BD28004D83E9;
+					};
+				};
+			};
+			buildConfigurationList = 736530551976BD28004D83E9 /* Build configuration list for PBXProject "RS Combat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 736530511976BD28004D83E9;
+			productRefGroup = 7365305B1976BD28004D83E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				736530591976BD28004D83E9 /* RS Combat */,
+				736530721976BD28004D83E9 /* RS CombatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		736530581976BD28004D83E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				733AEBAF199C577300E0BA95 /* 768osBackground.png in Resources */,
+				732C6C4B19C5568A0078927C /* AppIcon60x60@3x.png in Resources */,
+				73719C1619A00A54007EE1BC /* AppIcon60x60@2x.png in Resources */,
+				73719C1019A00A54007EE1BC /* AppIcon40x40@2x.png in Resources */,
+				73719C0D19A00A54007EE1BC /* AppIcon29x29.png in Resources */,
+				735641C519819F080098FF4B /* Images.xcassets in Resources */,
+				735641C819819F080098FF4B /* Main_Storyboard_4.storyboard in Resources */,
+				73719C1219A00A54007EE1BC /* AppIcon50x50@2x.png in Resources */,
+				735641BF19819F080098FF4B /* rs3Tab.png in Resources */,
+				73719C1519A00A54007EE1BC /* AppIcon60x60.png in Resources */,
+				73719C1419A00A54007EE1BC /* AppIcon57x57@2x.png in Resources */,
+				735641C919819F080098FF4B /* Main_Storyboard_35.storyboard in Resources */,
+				73719C1119A00A54007EE1BC /* AppIcon50x50.png in Resources */,
+				733AEBB3199C94B100E0BA95 /* Info.plist in Resources */,
+				73719C0F19A00A54007EE1BC /* AppIcon40x40.png in Resources */,
+				735641BA19819F080098FF4B /* button.png in Resources */,
+				735641BC19819F080098FF4B /* osBackground.png in Resources */,
+				73719C1A19A00A54007EE1BC /* AppIcon76x76@2x.png in Resources */,
+				73719C1719A00A54007EE1BC /* AppIcon72x72.png in Resources */,
+				735641BE19819F080098FF4B /* osTab@2x.png in Resources */,
+				735641BD19819F080098FF4B /* osTab.png in Resources */,
+				735F29AB199B0AEE008940AF /* 768x1024.png in Resources */,
+				735641C019819F080098FF4B /* rs3Tab@2x.png in Resources */,
+				735641C419819F080098FF4B /* textbox.png in Resources */,
+				73719C1319A00A54007EE1BC /* AppIcon57x57.png in Resources */,
+				735F29B1199B0DE3008940AF /* Main_Storyboard_iPad.storyboard in Resources */,
+				73719C0E19A00A54007EE1BC /* AppIcon29x29@2x.png in Resources */,
+				73719C1819A00A54007EE1BC /* AppIcon72x72@2x.png in Resources */,
+				735641C319819F080098FF4B /* tabBarBackground@2x.png in Resources */,
+				735641B719819F080098FF4B /* 640x1136.png in Resources */,
+				73719C1919A00A54007EE1BC /* AppIcon76x76.png in Resources */,
+				73E9662D19A3B64C00196E34 /* AppLogo.png in Resources */,
+				735641B819819F080098FF4B /* 640x960.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		736530711976BD28004D83E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		733AEBB4199C9C4E00E0BA95 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		736530561976BD28004D83E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				735641C719819F080098FF4B /* IntroViewController.m in Sources */,
+				735641B419819F080098FF4B /* AppDelegate.m in Sources */,
+				735641CB19819F080098FF4B /* OSViewController.m in Sources */,
+				735641B619819F080098FF4B /* FirstViewController.m in Sources */,
+				735F29B4199B0E8B008940AF /* iPadOsViewController.m in Sources */,
+				735641CC19819F080098FF4B /* SecondViewController.m in Sources */,
+				735641B519819F080098FF4B /* F2PViewController.m in Sources */,
+				735641CA19819F080098FF4B /* main.m in Sources */,
+				735F29AF199B0DC6008940AF /* iPadRs3ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7365306F1976BD28004D83E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		736530751976BD28004D83E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 736530591976BD28004D83E9 /* RS Combat */;
+			targetProxy = 736530741976BD28004D83E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7365307B1976BD28004D83E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7365307C1976BD28004D83E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7365307E1976BD28004D83E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "RS Combat/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "RS Combat";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7365307F1976BD28004D83E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "RS Combat/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "RS Combat";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		736530811976BD28004D83E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RS Combat.app/RS Combat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RS Combat Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "RS CombatTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		736530821976BD28004D83E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RS Combat.app/RS Combat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RS Combat Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "RS CombatTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		736530551976BD28004D83E9 /* Build configuration list for PBXProject "RS Combat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7365307B1976BD28004D83E9 /* Debug */,
+				7365307C1976BD28004D83E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7365307D1976BD28004D83E9 /* Build configuration list for PBXNativeTarget "RS Combat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7365307E1976BD28004D83E9 /* Debug */,
+				7365307F1976BD28004D83E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		736530801976BD28004D83E9 /* Build configuration list for PBXNativeTarget "RS CombatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				736530811976BD28004D83E9 /* Debug */,
+				736530821976BD28004D83E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 736530521976BD28004D83E9 /* Project object */;
+}
