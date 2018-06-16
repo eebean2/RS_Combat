@@ -179,7 +179,7 @@ class OSMain: UIViewController, UITextFieldDelegate {
         NotificationCenter.default.removeObserver(self, name: .UIKeyboardDidHide, object: nil)
     }
 
-    func keyboardDidShow(_ sender: Notification) {
+    @objc func keyboardDidShow(_ sender: Notification) {
         if let userInfo = sender.userInfo {
             if let keyboardSize = (userInfo[UIKeyboardFrameBeginUserInfoKey] as? NSValue)?.cgRectValue {
                 let buttonOrigin = activeField!.frame.origin
@@ -199,15 +199,15 @@ class OSMain: UIViewController, UITextFieldDelegate {
         }
     }
 
-    func keyboardDidHide(_ sender: Notification) {
+    @objc func keyboardDidHide(_ sender: Notification) {
         scroll.setContentOffset(CGPoint.zero, animated: true)
     }
 
-    func donePressed(_ sender: UIBarButtonItem) {
+    @objc func donePressed(_ sender: UIBarButtonItem) {
         view.endEditing(true)
     }
 
-    func dismissKeyboard(_ sender: UITapGestureRecognizer) {
+    @objc func dismissKeyboard(_ sender: UITapGestureRecognizer) {
         if activeField != nil {
             activeField!.resignFirstResponder()
         }

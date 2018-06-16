@@ -18,8 +18,14 @@ DerivedData/
 xcuserdata/
 
 ## Other
+.DS_Store
+.DS_Store?
+.Trashes
+.Spotlight-V100
+*.swp
 *.moved-aside
-*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
 
 ## Obj-C/Swift specific
 *.hmap
@@ -31,19 +37,15 @@ xcuserdata/
 timeline.xctimeline
 playground.xcworkspace
 
-# Swift Package Manager
-Packages/
-.build/
-
 # CocoaPods
 Pods/
 
 # Carthage
 Carthage/Checkouts
-
 Carthage/Build
 
 # fastlane
+
 fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots
