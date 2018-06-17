@@ -1,0 +1,222 @@
+
+/* Class = "UITextField"; text = "1"; ObjectID = "1yl-pf-eNh"; */
+"1yl-pf-eNh.text" = "1";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "24i-K3-E1u"; */
+"24i-K3-E1u.text" = "0";
+
+/* Class = "UITextField"; text = "1"; ObjectID = "3if-5i-xx2"; */
+"3if-5i-xx2.text" = "1";
+
+/* Class = "UITextField"; text = "10"; ObjectID = "6Rb-6U-rGx"; */
+"6Rb-6U-rGx.text" = "10";
+
+/* Class = "UITextField"; text = "1"; ObjectID = "72c-75-BDg"; */
+"72c-75-BDg.text" = "1";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "7HG-gQ-80T"; */
+"7HG-gQ-80T.text" = "0";
+
+/* Class = "UITextField"; text = "1"; ObjectID = "9ei-dg-wDx"; */
+"9ei-dg-wDx.text" = "1";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "DXk-EF-9cG"; */
+"DXk-EF-9cG.text" = "0";
+
+/* Class = "UILabel"; text = "Prayer Levels"; ObjectID = "DzL-Sm-c1s"; */
+"DzL-Sm-c1s.text" = "Niveaux de Prière";
+
+/* Class = "UILabel"; text = "Defence Levels"; ObjectID = "EUE-wi-QsN"; */
+"EUE-wi-QsN.text" = "Niveaux de Défense";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "FEB-cK-dU3"; */
+"FEB-cK-dU3.text" = "0";
+
+/* Class = "UILabel"; text = "Attack Levels"; ObjectID = "FWq-ca-Zaf"; */
+"FWq-ca-Zaf.text" = "Niveaux D'Attaque";
+
+/* Class = "UITextField"; text = "1"; ObjectID = "Gv0-Jn-oDR"; */
+"Gv0-Jn-oDR.text" = "1";
+
+/* Class = "UIButton"; normalTitle = "Calculate"; ObjectID = "HgR-y3-FMj"; */
+"HgR-y3-FMj.normalTitle" = "Calculer";
+
+/* Class = "UILabel"; text = "Magic Levels"; ObjectID = "KcI-bL-axG"; */
+"KcI-bL-axG.text" = "Niveaux Magie";
+
+/* Class = "UITextField"; text = "1"; ObjectID = "MS9-AO-HJA"; */
+"MS9-AO-HJA.text" = "1";
+
+/* Class = "UILabel"; text = "Constitution"; ObjectID = "Mhp-f4-0OS"; */
+"Mhp-f4-0OS.text" = "Constitution";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "O0S-n0-qYX"; */
+"O0S-n0-qYX.text" = "0";
+
+/* Class = "UILabel"; text = "Attack"; ObjectID = "P6c-Cc-tpZ"; */
+"P6c-Cc-tpZ.text" = "Attaque";
+
+/* Class = "UITextField"; text = "1"; ObjectID = "QS6-Ko-lTU"; */
+"QS6-Ko-lTU.text" = "1";
+
+/* Class = "UILabel"; text = "Till your level:"; ObjectID = "ShU-yL-4hU"; */
+"ShU-yL-4hU.text" = "Jusqu'à ce que vous soyez niveau:";
+
+/* Class = "UILabel"; text = "Range"; ObjectID = "T2W-Tm-fVR"; */
+"T2W-Tm-fVR.text" = "Combat à Distance";
+
+/* Class = "UITextField"; text = "1"; ObjectID = "T4k-2K-QB1"; */
+"T4k-2K-QB1.text" = "1";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "TRw-6Y-isf"; */
+"TRw-6Y-isf.text" = "0";
+
+/* Class = "UITabBarItem"; title = "RS3"; ObjectID = "UJ2-Pp-Saw"; */
+"UJ2-Pp-Saw.title" = "RS3";
+
+/* Class = "UILabel"; text = "Constitution Levels"; ObjectID = "V3j-9T-DBA"; */
+"V3j-9T-DBA.text" = "Niveaux de Constitution";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "Vnd-mk-Rrt"; */
+"Vnd-mk-Rrt.text" = "0";
+
+/* Class = "UILabel"; text = "Strength"; ObjectID = "W9b-ZE-EXr"; */
+"W9b-ZE-EXr.text" = "Force";
+
+/* Class = "UILabel"; text = "Range Levels"; ObjectID = "WQh-ti-pkY"; */
+"WQh-ti-pkY.text" = "Niveaux Combat à Distance";
+
+/* Class = "UILabel"; text = "Prayer"; ObjectID = "XDf-bq-nuj"; */
+"XDf-bq-nuj.text" = "Prière";
+
+/* Class = "UILabel"; text = "Strength Levels"; ObjectID = "XIJ-Ng-sIt"; */
+"XIJ-Ng-sIt.text" = "Niveaux de Force";
+
+/* Class = "UILabel"; text = "Prayer Levels"; ObjectID = "Y1j-FA-Afh"; */
+"Y1j-FA-Afh.text" = "Niveaux de Prière";
+
+/* Class = "UILabel"; text = "Attack"; ObjectID = "Y3s-Ga-er1"; */
+"Y3s-Ga-er1.text" = "Attaque";
+
+/* Class = "UITextField"; text = "1"; ObjectID = "YCz-JV-O7c"; */
+"YCz-JV-O7c.text" = "1";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "YdN-Fq-93c"; */
+"YdN-Fq-93c.text" = "0";
+
+/* Class = "UILabel"; text = "Hitpoints"; ObjectID = "a4R-z0-VtR"; */
+"a4R-z0-VtR.text" = "Hitpoints";
+
+/* Class = "UITextField"; text = "1"; ObjectID = "bKO-RG-hvs"; */
+"bKO-RG-hvs.text" = "1";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "cTQ-T7-5Yk"; */
+"cTQ-T7-5Yk.text" = "0";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "dEv-YQ-hh3"; */
+"dEv-YQ-hh3.text" = "0";
+
+/* Class = "UITabBarItem"; title = "OSRS"; ObjectID = "daP-zx-I1k"; */
+"daP-zx-I1k.title" = "OSRS";
+
+/* Class = "UILabel"; text = "Magic Levels"; ObjectID = "eCV-G9-O6N"; */
+"eCV-G9-O6N.text" = "Niveaux Magie";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "eLA-Kc-yMd"; */
+"eLA-Kc-yMd.text" = "0";
+
+/* Class = "UILabel"; text = "Summoning Levels"; ObjectID = "eLD-5d-j29"; */
+"eLD-5d-j29.text" = "Niveaux D'Invocation";
+
+/* Class = "UILabel"; text = "You Need Either :"; ObjectID = "efS-Jf-ZQS"; */
+"efS-Jf-ZQS.text" = "Vous avoir besoin soit:";
+
+/* Class = "UITextField"; text = "1"; ObjectID = "eq9-1W-1A9"; */
+"eq9-1W-1A9.text" = "1";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "fLJ-Va-rPC"; */
+"fLJ-Va-rPC.text" = "0";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "fm2-CV-ZMx"; */
+"fm2-CV-ZMx.text" = "0";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "hul-GH-TCb"; */
+"hul-GH-TCb.text" = "0";
+
+/* Class = "UILabel"; text = "You are level:"; ObjectID = "iij-SR-wjW"; */
+"iij-SR-wjW.text" = "Vous êtes niveau:";
+
+/* Class = "UILabel"; text = "Magic"; ObjectID = "j5o-lc-gT6"; */
+"j5o-lc-gT6.text" = "Magie";
+
+/* Class = "UILabel"; text = "You are level:"; ObjectID = "kvd-Ra-13b"; */
+"kvd-Ra-13b.text" = "Vous êtes niveau:";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "l8B-II-Qqf"; */
+"l8B-II-Qqf.text" = "0";
+
+/* Class = "UILabel"; text = "Attack Levels"; ObjectID = "luf-g6-clL"; */
+"luf-g6-clL.text" = "Niveaux D'Attaque";
+
+/* Class = "UILabel"; text = "Prayer"; ObjectID = "mFA-90-Ts5"; */
+"mFA-90-Ts5.text" = "Prière";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "nnh-bn-JWS"; */
+"nnh-bn-JWS.text" = "0";
+
+/* Class = "UIButton"; normalTitle = "Calculate"; ObjectID = "oF6-Y4-Ip5"; */
+"oF6-Y4-Ip5.normalTitle" = "Calculer";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "oN8-iQ-ImM"; */
+"oN8-iQ-ImM.text" = "0";
+
+/* Class = "UILabel"; text = "Defence"; ObjectID = "oOm-5H-iJY"; */
+"oOm-5H-iJY.text" = "Défense";
+
+/* Class = "UILabel"; text = "Magic"; ObjectID = "oPP-Qc-jJB"; */
+"oPP-Qc-jJB.text" = "Magie";
+
+/* Class = "UILabel"; text = "Range"; ObjectID = "sJS-Ho-bRX"; */
+"sJS-Ho-bRX.text" = "Combat à Distance";
+
+/* Class = "UILabel"; text = "You Need Either :"; ObjectID = "tRC-Js-d3a"; */
+"tRC-Js-d3a.text" = "Vous avoir besoin soit:";
+
+/* Class = "UILabel"; text = "Range Levels"; ObjectID = "vP4-7C-TGE"; */
+"vP4-7C-TGE.text" = "Niveaux Combat à Distance";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "voV-sC-6Q8"; */
+"voV-sC-6Q8.text" = "0";
+
+/* Class = "UILabel"; text = "Defence"; ObjectID = "w2k-Dl-ywH"; */
+"w2k-Dl-ywH.text" = "Défense";
+
+/* Class = "UILabel"; text = "Till your level:"; ObjectID = "wEL-5X-zx1"; */
+"wEL-5X-zx1.text" = "Jusqu'à ce que vous soyez niveau:";
+
+/* Class = "UILabel"; text = "Strength"; ObjectID = "wOM-j5-T0N"; */
+"wOM-j5-T0N.text" = "Force";
+
+/* Class = "UILabel"; text = "Summoning"; ObjectID = "xA5-UW-7nS"; */
+"xA5-UW-7nS.text" = "Invocation";
+
+/* Class = "UILabel"; text = "Defence Levels"; ObjectID = "xQd-xH-vhB"; */
+"xQd-xH-vhB.text" = "Niveaux de Défense";
+
+/* Class = "UILabel"; text = "Strength Levels"; ObjectID = "xoz-xW-0rm"; */
+"xoz-xW-0rm.text" = "Niveaux de Force";
+
+/* Class = "UILabel"; text = "Hitpoint Levels"; ObjectID = "yST-TD-n16"; */
+"yST-TD-n16.text" = "Niveaux Hitpoint";
+
+/* Class = "UITextField"; text = "1"; ObjectID = "yjR-V6-4gP"; */
+"yjR-V6-4gP.text" = "1";
+
+/* Class = "UITextField"; text = "1"; ObjectID = "z1a-A2-gW3"; */
+"z1a-A2-gW3.text" = "1";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "z7c-Ed-zmt"; */
+"z7c-Ed-zmt.text" = "0";
+
+/* Class = "UITextField"; text = "10"; ObjectID = "zoq-cS-57r"; */
+"zoq-cS-57r.text" = "10";

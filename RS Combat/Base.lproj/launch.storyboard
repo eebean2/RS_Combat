@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16E154a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="NkR-w7-Tlt">
-    <device id="retina4_7" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="NkR-w7-Tlt">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -18,32 +18,32 @@
                         <viewControllerLayoutGuide type="bottom" id="jqj-yT-fOj"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Oxk-JK-omF">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="640x1136.png" translatesAutoresizingMaskIntoConstraints="NO" id="kWe-V2-VM5">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Runescape is copyright Jagex Ltd" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lQX-gM-6DK">
-                                <rect key="frame" x="92.5" y="586" width="191" height="15"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RuneScape is copyright Jagex Ltd" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lQX-gM-6DK">
+                                <rect key="frame" x="92" y="726" width="192" height="15"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" red="0.92651540340000005" green="0.92651540340000005" blue="0.92651540340000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This app is not made, nor endorced by Jagex" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tqz-yI-lRe">
-                                <rect key="frame" x="60.5" y="609" width="255" height="15"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This app is not made by Jagex" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tqz-yI-lRe">
+                                <rect key="frame" x="102.66666666666669" y="749" width="172" height="15"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" red="0.92651540340000005" green="0.92651540340000005" blue="0.92651540340000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All content aquired publicly" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1T2-yT-vjO">
-                                <rect key="frame" x="110.5" y="632" width="155" height="15"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All content acquired publicly" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1T2-yT-vjO">
+                                <rect key="frame" x="107.66666666666669" y="772" width="161" height="15"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" red="0.92651540340000005" green="0.92651540340000005" blue="0.92651540340000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="fXc-st-U4V">
-                                <rect key="frame" x="43.5" y="101.5" width="288" height="312"/>
+                                <rect key="frame" x="43.666666666666657" y="174" width="288" height="312"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="288" id="R7m-Bz-zlA"/>
                                     <constraint firstAttribute="height" constant="312" id="vhP-3v-wTh"/>
@@ -54,13 +54,13 @@
                         <constraints>
                             <constraint firstItem="fXc-st-U4V" firstAttribute="centerY" secondItem="kWe-V2-VM5" secondAttribute="centerY" constant="-76" id="7su-Lc-z43"/>
                             <constraint firstAttribute="trailing" secondItem="kWe-V2-VM5" secondAttribute="trailing" id="F9X-11-JHZ"/>
-                            <constraint firstItem="jqj-yT-fOj" firstAttribute="top" secondItem="kWe-V2-VM5" secondAttribute="bottom" id="Mo0-96-DeA"/>
-                            <constraint firstItem="1T2-yT-vjO" firstAttribute="top" secondItem="kWe-V2-VM5" secondAttribute="bottom" constant="-35" id="UhB-YJ-oeC"/>
+                            <constraint firstAttribute="bottom" secondItem="kWe-V2-VM5" secondAttribute="bottom" id="Mo0-96-DeA"/>
+                            <constraint firstItem="1T2-yT-vjO" firstAttribute="bottom" secondItem="kWe-V2-VM5" secondAttribute="bottom" constant="-25" id="UhB-YJ-oeC"/>
                             <constraint firstItem="kWe-V2-VM5" firstAttribute="leading" secondItem="Oxk-JK-omF" secondAttribute="leading" id="V82-JY-g03"/>
                             <constraint firstItem="tqz-yI-lRe" firstAttribute="centerX" secondItem="1T2-yT-vjO" secondAttribute="centerX" id="ct1-EX-EUG"/>
                             <constraint firstItem="1T2-yT-vjO" firstAttribute="centerX" secondItem="kWe-V2-VM5" secondAttribute="centerX" id="fdE-dd-1BW"/>
                             <constraint firstItem="tqz-yI-lRe" firstAttribute="top" secondItem="lQX-gM-6DK" secondAttribute="bottom" constant="8" id="keU-lE-Gos"/>
-                            <constraint firstItem="kWe-V2-VM5" firstAttribute="top" secondItem="hlQ-XQ-kNx" secondAttribute="bottom" id="n6c-3w-sMM"/>
+                            <constraint firstItem="kWe-V2-VM5" firstAttribute="top" secondItem="Oxk-JK-omF" secondAttribute="top" id="n6c-3w-sMM"/>
                             <constraint firstItem="lQX-gM-6DK" firstAttribute="centerX" secondItem="tqz-yI-lRe" secondAttribute="centerX" id="rBS-ax-7XP"/>
                             <constraint firstItem="1T2-yT-vjO" firstAttribute="top" secondItem="tqz-yI-lRe" secondAttribute="bottom" constant="8" id="xBK-uA-Mrk"/>
                             <constraint firstItem="fXc-st-U4V" firstAttribute="centerX" secondItem="kWe-V2-VM5" secondAttribute="centerX" id="xiQ-WA-Kkg"/>

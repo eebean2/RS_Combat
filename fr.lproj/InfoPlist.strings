@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  RS Combat
+
+  Created by Erik Bean on 6/16/18.
+  Copyright © 2018 Erik Bean. All rights reserved.
+*/
+"CFBundleDisplayName" = "RS Combat";
+"UILaunchStoryboardName" = "Launch";

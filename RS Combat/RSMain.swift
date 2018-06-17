@@ -16,6 +16,11 @@ enum FightTitle {
     case skiller
 }
 
+enum ButtonState {
+    case calculate
+    case done
+}
+
 class RSMain: UIViewController, UITextFieldDelegate {
 
 // Static Get Levels
@@ -66,10 +71,13 @@ class RSMain: UIViewController, UITextFieldDelegate {
     @IBOutlet var nextLevel: UILabel!
     @IBOutlet var nextStatic: UILabel!
     @IBOutlet var needStatic: UILabel!
+    
     var calcualted = false
     var activeField: UITextField? = nil
     var lvl: Int = 0
     var fightTitle: FightTitle!
+    var state: ButtonState = .calculate
+    
     var attack: Int {
         if attackIn.text != "" {
             return Int(attackIn.text!)!
@@ -499,10 +507,12 @@ class RSMain: UIViewController, UITextFieldDelegate {
         prayerIn.isHidden = !prayerIn.isHidden
         summoningIn.isHidden = !summoningIn.isHidden
         constitutionIn.isHidden = !constitutionIn.isHidden
-        if button.currentTitle == "Calculate" {
-            button.setTitle("Done", for: .normal)
+        if state == .calculate {
+            button.setTitle(NSLocalizedString("Done", comment: ""), for: .normal)
+            state = .done
         } else {
-            button.setTitle("Calculate", for: .normal)
+            button.setTitle(NSLocalizedString("Calculate", comment: ""), for: .normal)
+            state = .calculate
         }
     }
     

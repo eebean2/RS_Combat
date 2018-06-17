@@ -61,6 +61,8 @@ class OSMain: UIViewController, UITextFieldDelegate {
     var activeField: UITextField? = nil
     var lvl: Int = 0
     var fightTitle: FightTitle!
+    var state: ButtonState = .calculate
+    
     var attack: Int {
         if attackIn.text != "" {
             return Int(attackIn.text!)!
@@ -236,10 +238,12 @@ class OSMain: UIViewController, UITextFieldDelegate {
         rangeIn.isHidden = !rangeIn.isHidden
         prayerIn.isHidden = !prayerIn.isHidden
         hpIn.isHidden = !hpIn.isHidden
-        if button.currentTitle == "Calculate" {
-            button.setTitle("Done", for: .normal)
+        if state == .calculate {
+            button.setTitle(NSLocalizedString("Done", comment: ""), for: .normal)
+            state = .done
         } else {
-            button.setTitle("Calculate", for: .normal)
+            button.setTitle(NSLocalizedString("Calculate", comment: ""), for: .normal)
+            state = .calculate
         }
     }
 
